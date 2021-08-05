@@ -1,0 +1,23 @@
+import requests
+
+#first of all you must get the last telegram user's chat id in step 8 of Readme file
+BotToken =
+response = requests.get("https://api.telegram.org/bot<BotToken>/getUpdates")
+response=response.json()
+chat_id=response['result'][-1]["message"]['chat']["id"]
+
+
+
+def telegram_bot_sendtext(bot_message):
+
+   bot_token = '1804958712:AAFSeACDBPH-nl-3a1B-HJ4oYYz-zmy2wnU'
+   bot_chatID = '216194176'
+   send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
+
+   response = requests.get(send_text)
+
+   return response.json()
+
+
+#test = telegram_bot_sendtext("I love u my love")
+#print(test)
