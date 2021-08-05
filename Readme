@@ -10,9 +10,9 @@
 #step 4: 
 #then BotFather ask you to choose a name and after that ask you to choose a username for your Bot.
 #step 5:
-#after your choosen name and username accepted BotFather will send you a message that contains your Token id
+#after your choosen name and username accepted BotFather will send you a message that contains your BotToken.
 #step 6:
-#open your windows command prompt and type pip install requests
+#open your windows command prompt and type pip install requests.
 #step 7:
 #tell the telegram user that you want send a message to him/her to search your Bot username in telegram app and enter it and choose /start bottom.               
 #step 8:
