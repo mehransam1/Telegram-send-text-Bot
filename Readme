@@ -1,1 +1,19 @@
+Hello world,
 
+if you want send text messages automaticly to telegram users with python follow the steps below:
+step 1:
+search @BotFather in your telegram app and choose it.
+step 2:
+choose /start bottom or type and send it to the BotFather.
+step 3:
+after that BotFather will automaticly send message to you and you must choose /newbot item or type an send it to BotFather.
+step 4: 
+then BotFather ask you to choose a name and after that ask you to choose a username for your Bot.
+step 5:
+after your choosen name and username accepted BotFather will send you a message that contains your Token id
+step 6:
+open your windows command prompt and type pip install requests
+step 7:
+tell the telegram user that you want send a message to him/her to search your Bot username in telegram app and enter it and choose /start bottom.               
+step 8:
+go to the source code file and run the code on your pc and enjoy that.
