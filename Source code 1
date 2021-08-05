@@ -1,9 +1,10 @@
 import requests
 
-#first of all enter your Bot Token that get from BotFather in 
+#first of all enter your Bot Token that get from BotFather in step 5 of Readme file.
+
 BotToken = "<YourBotToken>"
 
-#first of all you must get the last telegram user's chat id in step 8 of Readme file
+#then you must get the last telegram user's chat id in step 8 of Readme file
 
 response = requests.get("https://api.telegram.org/bot<YourBotToken>/getUpdates")
 
@@ -11,7 +12,11 @@ response=response.json()
 
 chatId=response['result'][-1]["message"]['chat']["id"]
 
+#write your message that you want send to telegram users.
+
 your_message="<your message>"
+
+#run the code and enjoy it.............
 
 def telegram_bot(your_message,BotToken,chatId):
 
